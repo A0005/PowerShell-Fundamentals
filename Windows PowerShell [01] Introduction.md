@@ -55,7 +55,7 @@ This is an introduction lesson in learning how to use PowerShell.
 <img width="700" alt="SelectObject First 1 PowerShell" src="https://user-images.githubusercontent.com/103763124/206557873-007f5c07-5eb1-4b6b-b687-715fb91af7d8.png">
 <br />
 <br />
-10	- As the pervious Cmdlet Typing "Get-ChildItem | Select-Object -Index 0" will also output the first object in the directory’s listing. But here will go further by piping in another Cmdlet. Typing "Get-ChildItem | Select-Object -First 1 | Select-Object Name" will return only the name object from the first object.
+10	- As the pervious Cmdlet Typing "Get-ChildItem | Select-Object -Index 0" will also output the first object in the directory’s listing. But here we will go further by piping in another Cmdlet. Typing "Get-ChildItem | Select-Object -First 1 | Select-Object Name" will return only the name object from the first object.
 <img width="700" alt="Index 0 PowerShell" src="https://user-images.githubusercontent.com/103763124/206558801-3b375b11-2282-4986-a1ce-f67e0e3ff4a9.png">
 <br />
 <br />
