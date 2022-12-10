@@ -39,7 +39,7 @@ This is an introduction lesson in learning how to use PowerShell.
 <img width="700" alt="cd Member PowerShell" src="https://user-images.githubusercontent.com/103763124/206526088-e25c69c7-af18-4bcf-93ce-c1b80fb93a89.png">
 <br />
 <br />
-6	- We can also use an Absolute Path which can be going from the very root of the file system or any dirve to a specific directory that you want. For example here will go back to the Users directory by typing "cd C:\Users"
+6	- We can also use an Absolute Path which can be going from the very root of the file system or any dirve to a specific directory that you want. For example here we will go back to the Users directory by typing "cd C:\Users"
 <img width="700" alt="Absolute path in Powershell" src="https://user-images.githubusercontent.com/103763124/206527765-a476539c-1b3e-4b99-8ffd-5aa830d1c67b.png">
 <br />
 <br />
@@ -55,7 +55,7 @@ This is an introduction lesson in learning how to use PowerShell.
 <img width="700" alt="SelectObject First 1 PowerShell" src="https://user-images.githubusercontent.com/103763124/206557873-007f5c07-5eb1-4b6b-b687-715fb91af7d8.png">
 <br />
 <br />
-10	- As the pervious Cmdlet Typing "Get-ChildItem | Select-Object -Index 0" will also output the first object in the directory’s listing. But here we will go further by piping in another Cmdlet. Typing "Get-ChildItem | Select-Object -First 1 | Select-Object Name" will return only the name object from the first object.
+10	- As the pervious Cmdlet Typing "Get-ChildItem | Select-Object -Index 0" will also output the first object in the directory’s listing. But here we will go further by piping in another Cmdlet. Typing "Get-ChildItem | Select-Object -First 1 | Select-Object Name" will return only the name object from the first object in the directory.
 <img width="700" alt="Index 0 PowerShell" src="https://user-images.githubusercontent.com/103763124/206558801-3b375b11-2282-4986-a1ce-f67e0e3ff4a9.png">
 <br />
 <br />
@@ -63,7 +63,7 @@ This is an introduction lesson in learning how to use PowerShell.
 <img width="700" alt="GetMember PowerShell" src="https://user-images.githubusercontent.com/103763124/206560081-9fafe3ec-1120-477f-81ad-4ad07c1002c0.png">
 <br />
 <br />
-12	- So the reason we use the pervious Cmdlet with "Get-Member" is because all objects in a directory will not be listed. So, for example to find out the Root or Parent of an object we can type "Get-ChildItem | Select-Object -First 1 | Select-Object Parent" - To simplify this Cmdlet we can use an alias for "Select-Object" which will be "Select" for example "Get-ChildItem | Select -First 1 | Select Parent".
+12	- So the reason we use the pervious Cmdlet with "Get-Member" is because all PowerShell headers in a directory will not be listed. So, for example to find out the Root or Parent of an object we can type "Get-ChildItem | Select-Object -First 1 | Select-Object Parent" - To simplify this Cmdlet we can use an alias for "Select-Object" which will be "Select" for example "Get-ChildItem | Select -First 1 | Select Parent".
 <img width="700" alt="Select Parent PowerShell" src="https://user-images.githubusercontent.com/103763124/206561580-b3f48411-8fac-4eef-a4e7-71c758b2910b.png">
 <br />
 <br />
@@ -75,11 +75,11 @@ This is an introduction lesson in learning how to use PowerShell.
 <img width="700" alt="ToString PowerShell" src="https://user-images.githubusercontent.com/103763124/206566141-a03e05c4-8267-4170-b517-b51023ae071b.png">
 <br />
 <br />
-15	- To learn a little more about a Cmdlet we can Type "Get-Help" follwing the Cmdlet. This is like the man page that we use is Linux but for PowerShell. 
+15	- To learn a little more about a Cmdlet we can Type "Get-Help" following the Cmdlet. This is like the man page that we use is Linux but for PowerShell. 
 <img width="700" alt="GetHelp PowerShell" src="https://user-images.githubusercontent.com/103763124/206567423-296b0858-8d0f-4d2a-9099-705934285af1.png">
 <br />
 <br />
-16	- If you do not know the Cmdlet that you are looking for, for example a printer Cmdlet you can type "Get-Help *printer*" and it will show you Cmdlets that you can run in PowerShell.
+16	- If you do not know the Cmdlet that you are looking for, for example a printer Cmdlet you can type "Get-Help *printer*" and it will show you printer Cmdlets that you can run in PowerShell.
 <img width="700" alt="GetHelp Printer PowerShell" src="https://user-images.githubusercontent.com/103763124/206568021-bdd24b0c-cb7a-4193-b7e6-83e326b0dbcc.png">
 <br />
 <br />
