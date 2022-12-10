@@ -35,7 +35,7 @@ This is an introduction lesson in learning how to use PowerShell.
 <img width="700" alt="Get-ChildItem in PowerShell" src="https://user-images.githubusercontent.com/103763124/206524756-81eec5eb-3afc-42f5-9861-c8b3d0f93689.png">
 <br />
 <br />
-5	- To move from the directory that you are currently in into another directory simply type "cd *following the directory’s name*" - Here will move from the users directory into the member directory. The proccees of typing "cd Member" is called a Relative Path.
+5	- To move from the directory that you are currently in into another directory simply type "cd *following the directory’s name*" - Here we will move from the users directory into the member directory. The proccees of typing "cd Member" is called a Relative Path.
 <img width="700" alt="cd Member PowerShell" src="https://user-images.githubusercontent.com/103763124/206526088-e25c69c7-af18-4bcf-93ce-c1b80fb93a89.png">
 <br />
 <br />
